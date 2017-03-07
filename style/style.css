@@ -1,18 +1,19 @@
 * { margin: 0; }
 
 #container {
-	width: 1024px;
-	overflow: hidden;
-	margin: 40px auto;
+    width: 1024px;
+    overflow: hidden;
+    margin: 40px auto;
 }
 
 #carousel {
-	width: 980px;
-	height: 350px;
-	position: relative; 
-	overflow: hidden;
-	float: left;
-	border: #666 solid 2px;
+    width: 980px;
+    height: 350px;
+    position: relative; 
+    overflow: hidden;
+    float: left;
+    border: #666 solid 2px;
+    display: inline-block;
 }
 
 #carousel img {
@@ -21,28 +22,29 @@
 }
 
 ul {
-	list-style: none;
-	padding: 0;
+    list-style: none;
+    padding: 0;
+    display: inline-flex;
 }
 
 .arrow {
-	margin: 0 auto;
-	width: 30px;
-	height: 30px;
-	float: left;
-	margin-top: 150px;
-	cursor: pointer;
-	position: relative;
-	z-index: 1;
-	background: #666;
-	padding: 5px;
-	border-radius: 10px;
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-top: 150px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    background: #666;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 .left {
-	margin-right: -20px;
+    margin-right: -20px;
 }
 
 .right {
-	margin-left: -20px;
+    margin-left: -20px;
 }
